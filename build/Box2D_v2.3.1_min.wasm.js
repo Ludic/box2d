@@ -544,10 +544,4 @@ jw();b.b2Manifold.e_faceA=kw();b.b2Manifold.e_faceB=lw();b.b2_staticBody=Mv();b.
 Box2D = Box2D.bind({
   _currentScript: typeof document !== 'undefined' ? document.currentScript : undefined
 });
-if (typeof exports === 'object' && typeof module === 'object')
-    module.exports = Box2D;
-  else if (typeof define === 'function' && define['amd'])
-    define([], function() { return Box2D; });
-  else if (typeof exports === 'object')
-    exports["Box2D"] = Box2D;
-  
+export default Box2D;
