@@ -1,6 +1,6 @@
 {
   "name": "@ludic/box2d",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JS port of Box2D",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,11 +14,11 @@
   "bugs": {
     "url": "https://github.com/Ludic/box2d/issues"
   },
-  "main": "build/Box2D_v2.3.1_min.js",
-  "jsnext:main": "build/Box2D_v2.3.1_min.js",
-  "module": "build/Box2D_v2.3.1_min.js",
+  "main": "build/Box2D_v2.3.1_min.wasm.js",
+  "types": "index.d.ts",
   "files": [
-    "build/"
+    "build/",
+    "index.d.ts"
   ],
   "homepage": "https://github.com/Ludic/box2d#readme",
   "devDependencies": {
