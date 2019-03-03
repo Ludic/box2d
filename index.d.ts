@@ -126,7 +126,7 @@ export namespace Box2D {
     filter: b2Filter
   }
 
-  export interface b2Fixture {
+  export class b2Fixture {
     GetType(): b2ShapeType
     GetShape(): b2Shape
     SetSensor(sensor: boolean): void
